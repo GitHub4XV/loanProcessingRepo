@@ -1,0 +1,9 @@
+package com.xv.org.templating2;
+
+import java.lang.Number;
+
+rule "SampleGuidedRule"
+	dialect "mvel"
+	when
+	then
+end
