@@ -12,6 +12,8 @@ public class Templating2DO implements java.io.Serializable
    private java.lang.Integer creditScore;
    private java.lang.String creditStatus;
 
+   private java.lang.String borrowerName;
+
    public Templating2DO()
    {
    }
@@ -36,11 +38,22 @@ public class Templating2DO implements java.io.Serializable
       this.creditStatus = creditStatus;
    }
 
+   public java.lang.String getBorrowerName()
+   {
+      return this.borrowerName;
+   }
+
+   public void setBorrowerName(java.lang.String borrowerName)
+   {
+      this.borrowerName = borrowerName;
+   }
+
    public Templating2DO(java.lang.Integer creditScore,
-         java.lang.String creditStatus)
+         java.lang.String creditStatus, java.lang.String borrowerName)
    {
       this.creditScore = creditScore;
       this.creditStatus = creditStatus;
+      this.borrowerName = borrowerName;
    }
 
 }
